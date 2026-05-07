@@ -4,8 +4,8 @@
 
 This project builds a **machine learning model** to predict whether an employee is likely to:
 
-* ❌ Leave the company (Attrition = 1)
-* ✅ Stay with the company (Attrition = 0)
+* ❌ Leave the company (Employee_Turnover = 1)
+* ✅ Stay with the company (Employee_Turnover = 0)
 
 The solution uses **XGBoost with L1 and L2 regularization** to ensure strong performance and prevent overfitting.
 
@@ -50,7 +50,7 @@ The dataset contains **900 records** and **15 features**, representing employee-
 
 ### 🎯 Target Variable
 
-* **Attrition**
+* **Employee_Turnover**
 
   * `0` → Employee stays
   * `1` → Employee leaves
